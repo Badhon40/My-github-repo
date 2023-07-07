@@ -17,10 +17,36 @@
     
 }
 .item{
-    margin: 5px;
+    margin: 10px;
     font-size: 18px;
     cursor: pointer;
 }
 .item:hover{
     color:darkblue
+}
+.logodesign{
+    width: 340px;
+}
+.Projects{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    color: azure;
+}
+.written{
+    font-weight: bold;
+    font-size:30px ;
+}
+.hero{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+button{
+    color: azure;
+    background-color: brown;
+    padding: 10px;
+    border: none;
 }
